@@ -3,7 +3,7 @@
     <h2>Supa fast!</h2>
     <slot></slot>
   </div>
-  <div v-else-if="score < 400" class="result">
+  <div v-else-if="score < 500" class="result">
     <h2>Okayge</h2>
     <slot></slot>
   </div>
